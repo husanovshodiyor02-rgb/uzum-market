@@ -324,6 +324,36 @@
         });
       </script>
 
+<button id="backToTopBtn" 
+  class="hidden fixed bottom-6 right-6 bg-[gray] hover:bg-[color:var(--white)] text-white hover:text-[color:var(--primary)] w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 z-50">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+  </svg>
+</button>
+
+<script>
+  const backToTopBtn = document.getElementById('backToTopBtn');
+
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 200) {
+      backToTopBtn.classList.remove('hidden');
+      backToTopBtn.classList.add('flex');
+    } else {
+      backToTopBtn.classList.remove('flex');
+      backToTopBtn.classList.add('hidden');
+    }
+  });
+
+  
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
       <script src="./main.js"></script>
 </body>
 </html>
