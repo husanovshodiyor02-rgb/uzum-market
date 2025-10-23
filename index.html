@@ -36,7 +36,9 @@
                         <h1 class="font-family font-medium text-sm leading-[100%] text-[#4d4f59]">Buyurtmalarim</h1>
                       <div class="flex items-center gap-[5px]">
                         <img src="./img/bayroq.svg" alt="">
-                        <h1 class="font-family font-medium text-sm leading-[286%] text-center text-[#1f2026]">Оʻzbekcha</h1>
+                        <select class="font-family font-medium text-sm leading-[286%] text-center text-[#1f2026]">
+                          <option value="o'zbekcha">Оʻzbekcha</option>
+                        </select>
                       </div>
                     </div>
                 </div>
@@ -89,27 +91,27 @@
             <div class="hidden lg:flex justify-between items-center">
                 <div class="flex items-center gap-2">
                     <img src="./img/sumka.svg" alt="">
-                    <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026]">Maktab bozori</a>
+                    <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026] hover:text-[#7000ff]">Maktab bozori</a>
                 </div>
                 <div class="flex items-center gap-2">
                     <img src="./img/foiz.svg" alt="">
-                    <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026]">Yozgi savdo</a>
+                    <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026] hover:text-[#7000ff]">Yozgi savdo</a>
                 </div>
                 <div class="flex items-center gap-2">
                     <img src="./img/qalam.svg" alt="">
-                    <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026]">Kanselyariya</a>
+                    <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026] hover:text-[#7000ff]">Kanselyariya</a>
                 </div>
                 <div class="flex items-center gap-2">
                     <img src="./img/nasiya.svg" alt="">
-                    <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026]">Nasiya</a>
+                    <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026] hover:text-[#7000ff]">Nasiya</a>
                 </div>
-                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59]">Elektronika</a>
-                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59]">Maishiy texnika</a>
-                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59]">Kiyim</a>
-                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59]">Poyabzallar</a>
-                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59]">Aksessuarlar</a>
-                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59]">Goʻzallik va parvarish</a>
-                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59]">Salomatlik</a>
+                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59] hover:text-[#7000ff]">Elektronika</a>
+                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59] hover:text-[#7000ff]">Maishiy texnika</a>
+                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59] hover:text-[#7000ff]">Kiyim</a>
+                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59] hover:text-[#7000ff]">Poyabzallar</a>
+                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59] hover:text-[#7000ff]">Aksessuarlar</a>
+                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59] hover:text-[#7000ff]">Goʻzallik va parvarish</a>
+                <a href="#" class="font-family font-normal text-sm leading-[171%] text-[#4d4f59] hover:text-[#7000ff]">Salomatlik</a>
                 <select class="font-family font-normal text-sm leading-[171%] text-[#4d4f59]">
                     <option value="yana">Yana</option>
                 </select>
@@ -117,40 +119,90 @@
         </div>
 
 
-        <div id="mobile-menu"
-  class="fixed top-0 right-0 w-[80%] max-w-[320px] h-full bg-white shadow-2xl transform translate-x-full transition-transform duration-300 ease-in-out z-50">
+        <div id="mobile-menu" class="fixed top-0 right-0 w-[80%] max-w-[320px] h-full bg-white shadow-2xl transform translate-x-full transition-transform duration-300 ease-in-out z-50">
   <div class="p-5 flex justify-between items-center border-b border-gray-200">
     <img src="./img/logo.svg" alt="" class="w-[150px]">
     <button id="close-menu" class="text-3xl text-gray-700 hover:text-black">✕</button>
   </div>
 
-  <div class="p-5 flex flex-col gap-4 text-[#1f2026] font-medium text-base">
-    <a href="#" class="hover:text-[#7000ff]">Kirish</a>
-    <a href="#" class="hover:text-[#7000ff]">Saralangan</a>
-    <a href="#" class="hover:text-[#7000ff]">Savat</a>
-    <a href="#" class="hover:text-[#7000ff]">Buyurtmalarim</a>
-    <a href="#" class="hover:text-[#7000ff]">Savol-javoblar</a>
-    <a href="#" class="hover:text-[#7000ff]">Uzumda soting</a>
-    <div class="flex items-center gap-2 mt-2">
-      <img src="./img/bayroq.svg" alt="" class="w-5 h-5">
-      <span>Oʻzbekcha</span>
-    </div>
+  <form class="border rounded w-auto h-10 border-solid border-[rgba(54,55,64,0.2)] bg-[#fff] flex justify-between mx-4 mt-3">
+    <input class="px-[15px] border-none outline-none focus:outline-none focus:ring-0" type="text" placeholder="Mahsulotlar va turkumlar izlash" required>
+    <button class="w-[39px] rounded-[0_4px_4px_0] border-r-[rgba(54,55,64,0.2)] border-y-[rgba(54,55,64,0.2)] border-b border-solid border-r border-t bg-[#edeff2] px-[10px]"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 10.5C15.5 13.2614 13.2614 15.5 10.5 15.5C7.73858 15.5 5.5 13.2614 5.5 10.5C5.5 7.73858 7.73858 5.5 10.5 5.5C13.2614 5.5 15.5 7.73858 15.5 10.5ZM14.3398 15.7451C13.264 16.5341 11.9364 17 10.5 17C6.91015 17 4 14.0899 4 10.5C4 6.91015 6.91015 4 10.5 4C14.0899 4 17 6.91015 17 10.5C17 11.9364 16.5341 13.264 15.7451 14.3398L19.709 18.3036C20.097 18.6917 20.097 19.3209 19.709 19.709C19.3209 20.097 18.6917 20.097 18.3036 19.709L14.3398 15.7451Z" fill="#4D4F59" />
+      </svg></button>
+</form>
+
+<div class="flex flex-col gap-5 p-5">
+  <div class="flex gap-[7px] items-center">
+     <div>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3C9.79086 3 8 4.79086 8 7V8C8 10.2091 9.79086 12 12 12C14.2091 12 16 10.2091 16 8V7C16 4.79086 14.2091 3 12 3ZM9.5 7C9.5 5.61929 10.6193 4.5 12 4.5C13.3807 4.5 14.5 5.61929 14.5 7V8C14.5 9.38071 13.3807 10.5 12 10.5C10.6193 10.5 9.5 9.38071 9.5 8V7ZM5.50232 19.3686C5.97321 16.2577 9.01803 14.5 12.0022 14.5C14.9858 14.5 18.031 16.2577 18.5019 19.3686C18.5046 19.3866 18.5025 19.3972 18.5 19.4048C18.497 19.4137 18.4903 19.4269 18.4759 19.442C18.4453 19.4741 18.3894 19.5039 18.3171 19.5039H5.68718C5.61487 19.5039 5.55898 19.4741 5.52838 19.442C5.51394 19.4269 5.50726 19.4137 5.50427 19.4048C5.50174 19.3972 5.49961 19.3865 5.50232 19.3686ZM12.0022 13C8.57321 13 4.64037 15.0404 4.01922 19.1441C3.85624 20.2208 4.75727 21.0039 5.68718 21.0039H18.3171C19.247 21.0039 20.148 20.2208 19.985 19.1441C19.3638 15.0404 15.4306 13 12.0022 13Z" fill="#1F2026" />
+        </svg>
+     </div>
+     <h1 class="font-family font-medium text-sm leading-[100%] text-center text-[#1f2026]">Kirish</h1> 
+  </div>
+  <div class="flex gap-[7px] items-center">
+      <i class="fa-regular fa-heart"></i>
+      <h1 class="font-family font-medium text-sm leading-[100%] text-center text-[#1f2026]">Saralangan</h1>
+  </div>
+  <div class="flex gap-[7px] items-center">
+      <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g opacity="0.87">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.55005 6.5C9.55005 4.88779 10.7902 3.5 12.55 3.5C14.3098 3.5 15.55 4.88779 15.55 6.5V7.5H9.55005V6.5ZM8.05005 9V11.5H9.55005V9H15.55V11.5H17.05V9H19.05V19.75C19.05 20.1642 18.7142 20.5 18.3 20.5H6.80005C6.38584 20.5 6.05005 20.1642 6.05005 19.75V9H8.05005ZM8.05005 7.5V6.5C8.05005 4.11221 9.90989 2 12.55 2C15.1902 2 17.05 4.11221 17.05 6.5V7.5H19.8H20.55V8.25V19.75C20.55 20.9926 19.5426 22 18.3 22H6.80005C5.55741 22 4.55005 20.9926 4.55005 19.75V8.25V7.5H5.30005H8.05005Z" fill="#1F2026" />
+      </g>
+      </svg>
+      <h1 class="font-family font-medium text-sm leading-[100%] text-center text-[#1f2026]">Savat</h1>
   </div>
 </div>
+  <div class="px-5 flex flex-col gap-4 text-[#1f2026] font-medium text-base">
+    <a href="#" class="font-family hover:text-[#7000ff]">Buyurtmalarim</a>
+    <a href="#" class="font-family hover:text-[#7000ff]">Savol-javoblar</a>
+    <a href="#" class="font-family hover:text-[#7000ff]">Uzumda soting</a>
+    <div class="flex items-center gap-2 mt-2">
+      <img src="./img/bayroq.svg" alt="" class="w-5 h-5">
+      <select class="font-family font-medium text-sm leading-[286%] text-center text-[#1f2026]">
+        <option value="o'zbekcha">Оʻzbekcha</option>
+      </select>
+    </div>
+  </div>
 
-<!-- Orqa fon (menu ochilganda) -->
+  <div class="flex flex-col gap-3 p-5">
+    <div class="flex items-center gap-2">
+        <img src="./img/sumka.svg" alt="">
+        <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026] hover:text-[#7000ff]">Maktab bozori</a>
+    </div>
+    <div class="flex items-center gap-2">
+        <img src="./img/foiz.svg" alt="">
+        <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026] hover:text-[#7000ff]">Yozgi savdo</a>
+    </div>
+    <div class="flex items-center gap-2">
+        <img src="./img/qalam.svg" alt="">
+        <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026] hover:text-[#7000ff]">Kanselyariya</a>
+    </div>
+    <div class="flex items-center gap-2">
+        <img src="./img/nasiya.svg" alt="">
+        <a href="#" class="font-family font-semibold text-xs leading-[120%] text-[#1f2026] hover:text-[#7000ff]">Nasiya</a>
+    </div>
+    
+    <select class="font-family font-normal text-sm leading-[171%] text-[#4d4f59]">
+        <option value="yana">Yana</option>
+    </select>
+</div>
+</div>
+
+
 <div id="overlay" class="fixed inset-0 bg-black bg-opacity-30 hidden z-40"></div>
     </header>
 
     <section class="container1">
-        <div class="swiper mySwiper w-full lg:h-[430px] xs:h-auto rounded-lg overflow-hidden my-12">
+        <div class="swiper mySwiper w-full h-[430px] rounded-lg overflow-hidden my-12">
             <div class="swiper-wrapper">
           
               
               <div class="swiper-slide bg-gradient-to-r from-[#001F66] to-[#004DCC] flex items-center justify-between text-white">
                 
                 <div class="w-full h-full">
-                  <img src="./img/Link → main_page_banner.jpg.png" alt="banner" class="w-full object-contain">
+                  <img src="./img/Link → main_page_banner.jpg.png" alt="banner" class="w-full h-full object-cover">
                 </div>
               </div>
           
@@ -158,7 +210,7 @@
               <div class="swiper-slide bg-gradient-to-r from-[#3B0764] to-[#7E22CE] flex items-center justify-between text-white">
                 
                 <div class="w-full h-full">
-                  <img src="./img/Link → main_page_banner.jpg.png" alt="banner" class="w-full object-contain">
+                  <img src="./img/Link → main_page_banner.jpg.png" alt="banner" class="w-full h-full object-cover">
                 </div>
               </div>
           
@@ -171,26 +223,38 @@
           </div>
     </section>
 
+    <section class="container1">
+      <h1 class="font-family text-3xl font-bold mb-8 text-center">Tovarlar ro'yxati</h1>
+
+      
+      <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+       
+      </div>
+    
+    </section>
 
     <footer class="container1">
-        <div class="flex flex-col md:flex-row justify-between gap-5 mb-15">
+        <div class="flex flex-col md:flex-row justify-between gap-5 my-15">
+          <div class="flex gap-5 lg:gap-50 justify-between">
             <div>
-                <h3 class="font-second font-medium text-sm leading-[136%] text-[#1f2026]">Biz haqimizda</h3>
-                <a href="#" class="font-second font-normal text-xs leading-[133%] text-[#8b8e99]">Topshirish punktlari</a><br>
-                <a href="#" class="font-second font-normal text-xs leading-[133%] text-[#8b8e99]">Vakansiyalar</a>
-            </div>
-            <div>
-                <h3 class="font-second font-medium text-sm leading-[136%] text-[#1f2026]">Foydalanuvchilarga</h3>
-                <a href="#" class="font-second font-normal text-xs leading-[133%] text-[#8b8e99]">Biz bilan bogʻlanish</a><br>
-                <a href="#" class="font-second font-normal text-xs leading-[133%] text-[#8b8e99]">Savol-Javob</a>
-            </div>
-            <div>
+              <h3 class="font-second font-medium text-sm leading-[136%] text-[#1f2026]">Biz haqimizda</h3>
+              <a href="#" class="font-second font-normal text-xs leading-[133%] text-[#8b8e99]">Topshirish punktlari</a><br>
+              <a href="#" class="font-second font-normal text-xs leading-[133%] text-[#8b8e99]">Vakansiyalar</a>
+          </div>
+          <div>
+              <h3 class="font-second font-medium text-sm leading-[136%] text-[#1f2026]">Foydalanuvchilarga</h3>
+              <a href="#" class="font-second font-normal text-xs leading-[133%] text-[#8b8e99]">Biz bilan bogʻlanish</a><br>
+              <a href="#" class="font-second font-normal text-xs leading-[133%] text-[#8b8e99]">Savol-Javob</a>
+          </div>
+          </div>
+            
+            <div class="md:text-left xs:text-center">
                 <h3 class="font-second font-medium text-sm leading-[136%] text-[#1f2026]">Tadbirkorlarga</h3><br>
                 <a href="#" class="font-second font-normal text-xs leading-[133%] text-[#8b8e99]">Sotuvchi kabinetiga kirish</a>
             </div>
-            <div>
+            <div class="md:text-left xs:text-center">
                 <h3 class="font-second font-medium text-sm leading-[136%] text-[#1f2026]">Ilovani yuklab olish</h3><br>
-                <div class="flex items-center gap-5">
+                <div class="flex items-center justify-center gap-5">
                     <div class="font-second font-medium text-sm leading-[129%] text-[#1f2026]">AppStore</div>
                     <div class="flex items-center gap-2">
                         <img src="./img/play.png" alt="">
@@ -198,8 +262,8 @@
                     </div>
                 </div><br>
                 <div>
-                    <h3 class="font-second font-medium text-sm leading-[129%] text-[#1f2026] mb-3">Uzum ijtimoiy tarmoqlarda</h3>
-                    <div class="flex items-center gap-4">
+                    <h3 class="font-second font-medium text-sm text-center leading-[129%] text-[#1f2026] mb-3">Uzum ijtimoiy tarmoqlarda</h3>
+                    <div class="flex items-center justify-center gap-4">
                         <a href="https://www.instagram.com/"><img src="./img/insta.png" alt=""></a>
                         <a href="https://www.telegram.com/"><img src="./img/tg.png" alt=""></a>
                         <a href="https://www.facebook.com/"><img src="./img/fc.png" alt=""></a>
@@ -208,21 +272,13 @@
                 </div>
             </div>
         </div>
+        <hr class="border border-[#7e818c]"><br>
+        <div class="flex flex-col md:flex-row items-center gap-5 mb-8">
+          <h3 class="font-second font-medium text-sm leading-[129%] text-[#1f2026]">Maxfiylik kelishuvi</h3>
+          <h3 class="font-second font-medium text-sm leading-[129%] text-[#1f2026]">Foydalanuvchi kelishuvi</h3>
+          <p class="font-second font-normal text-[11px] leading-[127%] text-[#7e818c]">«2024© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»</p>
+        </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -267,5 +323,7 @@
           overlay.classList.add('hidden');
         });
       </script>
+
+      <script src="./main.js"></script>
 </body>
 </html>
